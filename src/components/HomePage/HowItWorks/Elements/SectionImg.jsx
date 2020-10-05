@@ -47,15 +47,36 @@ const Title = () => {
               <div className="Section__img">
                 <Img fluid={data.SectionImg1.childImageSharp.fluid} />
               </div>
+              <div className="Section__title">
+                <h3>Plan your strategy</h3>
+                <p>
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id quod mazim placerancidunt.
+                </p>
+              </div>
             </Col>
             <Col lg={4}>
               <div className="Section__img">
                 <Img fluid={data.SectionImg2.childImageSharp.fluid} />
               </div>
+              <div className="Section__title">
+                <h3>Create your utilities</h3>
+                <p>
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id quod mazim placerancidunt.
+                </p>
+              </div>
             </Col>
             <Col lg={4}>
               <div className="Section__img">
                 <Img fluid={data.SectionImg3.childImageSharp.fluid} />
+              </div>
+              <div className="Section__title">
+                <h3>Manage your time</h3>
+                <p>
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil
+                  imperdiet doming id quod mazim placerancidunt.
+                </p>
               </div>
             </Col>
           </Row>

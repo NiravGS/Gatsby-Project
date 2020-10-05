@@ -112,6 +112,9 @@
 
     .menu {
         height: 689px !important;
+        @media(max-width:425px){
+            height: 570px !important;
+        }
         .home__page__element {
             .container {
                 .home__bg {
@@ -133,11 +136,5 @@
                 }
             }
         }
-    }
-}
-@media(max-width:425px) {
-
-    .menu {
-        height: 570px !important;
     }
 }

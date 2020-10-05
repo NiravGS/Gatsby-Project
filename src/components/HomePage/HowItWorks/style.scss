@@ -19,7 +19,31 @@
     }
 
     .title__SectionImg {
-        width: 219px;
-        height: 222px;
+        .Section__img {
+            width: 219px;
+            height: 222px;
+            margin: auto;
+            margin-top: 74px;
+        }
+
+        .Section__title {
+            margin-top: 70px;
+
+            h3 {
+                text-align: center;
+            }
+
+            p {
+                max-width: 337px;
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+                @media (max-width:768px) {
+                    margin: auto;
+                }
+            }
+        }
     }
+
+
 }

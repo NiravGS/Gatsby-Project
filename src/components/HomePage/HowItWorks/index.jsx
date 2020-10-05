@@ -15,7 +15,7 @@ const HowItWorks = () => {
       <div className="howItWorks">
         <Container>
             <Title />
-            <SectionImg />
+          <SectionImg />
         </Container>
       </div>
     </>
